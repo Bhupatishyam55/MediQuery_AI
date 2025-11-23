@@ -15,7 +15,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import google.generativeai as genai
 
 # --------------------- CONFIG -------------------------
-genai.configure(api_key="AIzaSyC4Rqb-nqgOBs73XtRehHsmr0aHlmQKEDE")
+genai.configure(api_key="GOOGLE_API_KEY")
 llm = genai.GenerativeModel("gemini-2.5-flash")
 
 # Preload NLTK Resources
@@ -137,3 +137,4 @@ if "index" in st.session_state:
             )
         st.subheader("💡 Answer")
         st.write(response)
+
