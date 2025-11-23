@@ -1,0 +1,8 @@
+streamlit
+nltk
+PyPDF2
+faiss-cpu
+numpy
+sentence-transformers
+langchain-text-splitters
+google-generativeai
